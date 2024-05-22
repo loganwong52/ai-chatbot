@@ -26,6 +26,7 @@ export default function Chat() {
 
             {status === 'in_progress' && <div />}
 
+            {/* This shows up on the page instead of the chat functionality */}
             <form onSubmit={submitMessage}>
                 <input
                     disabled={status !== 'awaiting_message'}
