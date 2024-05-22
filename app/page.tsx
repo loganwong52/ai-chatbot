@@ -30,7 +30,7 @@ export default function Chat() {
                 <input
                     disabled={status !== 'awaiting_message'}
                     value={input}
-                    placeholder="What is the temperature in the living room?"
+                    placeholder="File Search placeholder text"
                     onChange={handleInputChange}
                 />
             </form>
